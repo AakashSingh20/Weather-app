@@ -2,120 +2,191 @@
   /* border: 1px solid red; */
   height: 500px;
   width: 700px;
-  margin-left: 25%;
+  /* margin-left: 25%; */
   margin-top: 100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-
+*{
+  background-color: #161a1d;
+}
+.bod{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 input {
-  border: 1px solid red;
+  border: 1px solid white;
   width: 300px;
   height: 45px;
+  padding: 0px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: white;
+  
+}
+
+.search{
+  /* border: 4px solid white; */
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  height: 47px;
+  /* width: 400px; */
 }
 
 .search_but {
-  border: 1px solid black;
+  border: 1px solid #70e000;
   width: 100px;
-  height: 45px;
+  height:47px;
+  font-size: 15px;
+  background-color: #70e000;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .card {
-  border: 1px solid red;
+  /* border: 1px solid black; */
+  border-radius: 30px;
+  overflow: hidden;
   height: 400px;
   width: 700px;
+  box-shadow: 0px 0px 20px 1px #5c95b9;
   /* margin-left: 25%; */
   margin-top: 50px;
+  
   /* display: flex; */
   /* justify-content: center; */
 }
 
 .up_card {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 100%;
   height: 40%;
   display: flex;
   align-items: center;
+  background-color: white;
   justify-content: center;
 }
 
 .med_card {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 100%;
   height: 35%;
   display: flex;
 }
 .low_card {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 100%;
   height: 25%;
   display: flex;
+  background-color: #e5e5e5;
 }
 
 .up_card img {
-  height: 100%;
-  width: 40%;
-
+  height: 80%;
+  background: none;
+  /* width: 40%; */
 }
 
 .one,
 .two,
 .three {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 100%;
   width: calc(100% / 3);
 }
 
-.one{
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.one {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: black;
+}
+h1{
+  background: none;
+}
+.two {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  background-color: black;
+}
+.two a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+.three {
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5c95b9;
+  justify-content: center;
 }
 
-.two{
-    font-size: 30px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
-}
-.three{
-    font-size: 25px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.three a {
+  width: 150px;
+  background: none;
+  color: white;
 }
 
 .f,
 .s,
 .t,
 .fo {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 100%;
   width: calc(100% / 4);
   display: flex;
+  align-items: center;
+  margin-left: 20px;
+  background: none;
 }
 
-.det{
-    border: 1px solid blue;
-    height: 100%;
-    width: 60%;
+.det {
+  /* border: 1px solid blue; */
+  height: 100%;
+  width: 60%;
+  margin-left: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  background: none;
+
+
 }
-.f img, .s img, .t img, .fo img{
-    border: 1px solid black;
-    height: 100%;
-    width: 40%;
+.f img,
+.s img,
+.t img,
+.fo img {
+  /* border: 1px solid black; */
+  height: 50%;
+  background: none;
+
+  /* margin-left: 5px; */
+
+  /* width: 40%; */
 }
 
-.det{
+.det {
   display: flex;
   flex-direction: column;
   /* align-items: center; */
   justify-content: center;
+}
+
+.det a{
+  background: none;
+
 }

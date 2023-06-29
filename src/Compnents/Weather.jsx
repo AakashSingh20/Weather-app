@@ -41,10 +41,11 @@ export default function Weather() {
 
   return (
     <>
+    <div className="bod">
       <div className="main">
         <div className="search">
           <input
-            type="search"
+            type="input"
             value={searchValue}
             onChange={(event) => setsearchValue(event.target.value)}
           />
@@ -55,6 +56,7 @@ export default function Weather() {
         <Card  tempInfo={tempInfo}/>
 
         
+      </div>
       </div>
     </>
   );
